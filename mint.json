@@ -1,0 +1,101 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Zarpay",
+  "logo": {
+    "dark": "/logo/zarpay-icon.png",
+    "light": "/logo/zarpay-icon.png"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#8e17ac",
+    "light": "#DE93F0",
+    "dark": "#CD5DE9",
+    "anchors": {
+      "from": "#D36FEB",
+      "to": "#D881EE"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:hi@zarpay.app"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.zarpay.app"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "/"
+    },
+    {
+      "name": "Community",
+      "icon": "slack",
+      "url": "/"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://zarpay.zarclays.com"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "getting-started/getting-api-keys",
+        "getting-started/request-format"
+      ]
+    },
+    {
+      "group": "Collect Payments",
+      "pages": [
+        "collect-payments/introduction",        
+        "collect-payments/hosted-pay"
+      ]
+    },
+    
+
+    {
+      "group": "API Documentation",
+      "pages": ["api-reference/introduction"]
+    },
+    {
+      "group": "Payments",
+      "pages": [
+        
+        "api-reference/endpoint/hosted-pay",
+        "api-reference/endpoint/hosted-pay/initiate-payment",
+        "api-reference/endpoint/verify-transaction"
+      ]
+    },
+
+    {
+      "group": "Transactions",
+      "pages": [
+        "api-reference/endpoint/verify-transaction",
+        "api-reference/endpoint/transaction-records"
+      ]
+    },
+
+    {
+      "group": "Payment Link",
+      "pages": ["api-reference/endpoint/payment-links"]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/zarclays",
+    "github": "https://github.com/zarclays",
+    "linkedin": "https://www.linkedin.com/company/zarclays"
+  }
+}
